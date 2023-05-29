@@ -45,7 +45,10 @@ The redirect uri should look like: http://localhost:8000/rest/v1/calendar/redire
 ```bash
 python manage.py runserver
 ```
-
+8. Open the endpoint link in the browser:
+```bash
+http://localhost:8000/rest/v1/calendar/init/
+```
 ## API Endpoints
 1. Initialize Google Calendar Integration
 - Endpoint: `/rest/v1/calendar/init/`
