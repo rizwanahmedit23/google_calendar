@@ -34,7 +34,7 @@ pip install -r requirements.txt
 4. .Go to https://console.cloud.google.com/ and get Get OAuth 2.0 Credentials i.e. OAuth2 client ID, client secret, and redirect URI from the 'Google Calendar API'. 
 Replace them with the actual values from your Google API credentials.
 
-5. Move to the `google_calendar_integ` directory and update the constants in 'views.py' file with your google credentials as shown below:
+5. Move to the `google_calendar_integration` directory and update the constants in 'views.py' file with your google credentials as shown below:
 GOOGLE_OAUTH2_CLIENT_ID = "your-client-id"
 GOOGLE_OAUTH2_CLIENT_SECRET = "your-client-secret"
 GOOGLE_OAUTH2_REDIRECT_URI = "http://your-redirect-uri"
