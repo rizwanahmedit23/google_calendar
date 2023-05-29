@@ -22,7 +22,7 @@ git clone https://github.com/rizwanahmedit23/google_calendar.git
 ```
 2. Open project directory and start terminal if you are using VS Code or move to the project directory.
 ```bash
-cd google_calendar
+cd GoogleCalendarIntegration
 ```
 ```bash
 cd google_calendar
