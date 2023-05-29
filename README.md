@@ -14,8 +14,7 @@ code
 2. Once got the access_token get list of events in users calendar
 You need to write the code in Django. You are not supposed to use any
 existing third-party library other then google’s provided standard libraries
-#Getting Started
-1.Clone the repository:
+
 ## Getting Started
 1. Clone the repository
 ```bash
@@ -59,4 +58,4 @@ This endpoint handles redirect request sent by google, fetched the access token 
 The events are rendered in a simple HTML page. The output is shown below: 
 <br>
 
-![Output](events.jpeg)
+![Output](events.png)
