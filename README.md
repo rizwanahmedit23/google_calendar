@@ -27,17 +27,21 @@ cd GoogleCalendarIntegration
 ```bash
 cd google_calendar
 ```
-3. Get OAuth 2.0 Credentials from the Google Calendar API, OAuth2 client ID, client secret, and redirect URI. 
+4. Create an environment and install required modules from 'requirements.txt' file:
+```bash
+pip install -r requirements.txt
+```
+5. Get OAuth 2.0 Credentials from the Google Calendar API, OAuth2 client ID, client secret, and redirect URI. 
 Replace them with the actual values from your Google API credentials.
 
-4. Move to the `google_calendar_integ` directory and update the constants in 'views.py' file with your google credentials as shown below:
+6. Move to the `google_calendar_integ` directory and update the constants in 'views.py' file with your google credentials as shown below:
 GOOGLE_OAUTH2_CLIENT_ID = "your-client-id"
 GOOGLE_OAUTH2_CLIENT_SECRET = "your-client-secret"
 GOOGLE_OAUTH2_REDIRECT_URI = "http://your-redirect-uri"
 
 The redirect uri should look like: http://localhost:8000/rest/v1/calendar/redirect/ if you are using a local host
 
-5. Run the server
+7. Run the server
 ```bash
 python manage.py runserver
 ```
