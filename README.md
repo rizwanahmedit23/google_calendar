@@ -20,9 +20,12 @@ existing third-party library other then google’s provided standard libraries
 ```bash
 git clone https://github.com/rizwanahmedit23/google_calendar.git
 ```
-2. Open project directory if using VS Code or move to the project directory
+2. Open project directory and start terminal if you are using VS Code or move to the project directory.
 ```bash
-cd Google-Calendar-Integration-API
+cd google_calendar
+```
+```bash
+cd google_calendar
 ```
 3. Get OAuth 2.0 Credentials from the Google Calendar API, OAuth2 client ID, client secret, and redirect URI. 
 Replace them with the actual values from your Google API credentials.
