@@ -24,9 +24,6 @@ git clone https://github.com/rizwanahmedit23/google_calendar.git
 ```bash
 cd GoogleCalendarIntegration
 ```
-```bash
-cd google_calendar
-```
 3. Create an environment and install required modules from 'requirements.txt' file:
 ```bash
 pip install -r requirements.txt
