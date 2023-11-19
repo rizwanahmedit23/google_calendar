@@ -62,7 +62,7 @@ This endpoint starts step 1 of the OAuth2 process. It gets the user's credential
 This endpoint handles redirect request sent by google, fetched the access token and then gets a list of events from user's calendar. <br>
 
 ## Output
-The events are rendered in a simple HTML page. The output is shown below: 
+The Google calendar events are rendered in a simple HTML page. The output is shown below: 
 <br>
 
 ![Output](events.png)
